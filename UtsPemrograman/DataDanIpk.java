@@ -13,13 +13,13 @@ public class DataDanIpk {
         System.out.print("Jurusan : ");
         jrsn = scanner.nextLine();
         System.out.print("Nilai OOP : ");
-        int nilaioop = scanner.nextInt();
+        double nilaioop = scanner.nextInt();
         System.out.print("Nilai Basis Data : ");
-        int nilaibd = scanner.nextInt();
+        double nilaibd = scanner.nextInt();
         System.out.print("Nilai Jaringan Komputer : ");
-        int nilaijk = scanner.nextInt();
+        double nilaijk = scanner.nextInt();
         
-        int ip,totalNilaiMk;
+        double ip,totalNilaiMk;
         totalNilaiMk = nilaioop + nilaibd + nilaijk;
         ip = totalNilaiMk / 3;
                
@@ -43,6 +43,6 @@ public class DataDanIpk {
         else {
             predikat = "C";
         }
-        System.out.println("ANDA MENDAPATKAN PREDIKAT : " + predikat);
+        System.out.println("SELAMAT ANDA MENDAPATKAN PREDIKAT : " + predikat);
     }
 }
